@@ -1,12 +1,21 @@
 import React from 'react';
 import Editor from "./editor/Editor";
-import {Layout} from "./ui/Layout";
+import {Layout, Content, Navigation, SideBar} from "./ui/Layout";
 
 
 function App() {
     return (
         <Layout>
-            <Editor/>
+            <Navigation>
+                nav
+            </Navigation>
+            <SideBar>
+                hihi side nave
+            </SideBar>
+            <Content>
+                여긴 콘텐츠 에리어
+                <Editor/>
+            </Content>
         </Layout>
     );
 }
