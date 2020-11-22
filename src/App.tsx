@@ -1,17 +1,13 @@
 import React from 'react';
 import Editor from "./editor/Editor";
+import {Layout} from "./ui/Layout";
 
-const AppContainer : React.FC = ({children}) => {
-    return <div>
-        {children}
-    </div>
-}
 
 function App() {
     return (
-        <AppContainer>
+        <Layout>
             <Editor/>
-        </AppContainer>
+        </Layout>
     );
 }
 
