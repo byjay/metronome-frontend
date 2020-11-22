@@ -1,3 +1,5 @@
 # metronome 
+![build](https://github.com/byjay/metronome-frontend/workflows/build/badge.svg)
 
-Thins that write 
+Things that you write for daily use
+
